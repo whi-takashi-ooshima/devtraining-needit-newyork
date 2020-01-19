@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">8e20c6a7dbd2001037fa6781ca9619c1</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    if (action == 'insert') {
+        ignore = true;
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-19 09:03:46</sys_created_on>
+        <sys_id>9bba0a7fdb52401037fa6781ca961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_9bba0a7fdb52401037fa6781ca961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-19 09:03:46</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8f4e2159dbd3bb480b9d21c40596199a</instance_id>
+        <instance_name>dev91587</instance_name>
+        <name>sys_transform_script_9bba0a7fdb52401037fa6781ca961914</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Import Historic NeedIt Data"&gt;8e20c6a7dbd2001037fa6781ca9619c1&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    if (action == 'insert') {
+        ignore = true;
+    }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-19 09:03:46&lt;/sys_created_on&gt;&lt;sys_id&gt;9bba0a7fdb52401037fa6781ca961914&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_9bba0a7fdb52401037fa6781ca961914&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-19 09:03:46&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2069762299</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>b9fdfde3dbd2001037fa6781ca961956</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-19 09:03:46</sys_created_on>
+        <sys_id>81ea8a7fdb52401037fa6781ca961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fbd0b36910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-19 09:03:46</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>c9ea8a7f17524010163ed8a077d83b41</update_guid>
+        <update_guid_history>c9ea8a7f17524010163ed8a077d83b41:2069762299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-19 09:05:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>6942acbf5b5c4230ac51e8e408174100</sys_id>
+        <sys_metadata>9bba0a7fdb52401037fa6781ca961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Import Historic NeedIt Data">8e20c6a7dbd2001037fa6781ca9619c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_9bba0a7fdb52401037fa6781ca961914</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_9bba0a7fdb52401037fa6781ca961914">81ea8a7fdb52401037fa6781ca961942</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-19 09:05:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
